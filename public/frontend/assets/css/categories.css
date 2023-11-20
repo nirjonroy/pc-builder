@@ -1,0 +1,210 @@
+.overlay-sidebar{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000033;
+    display: none;
+}
+.sidebar-filter{
+    height: 100%;
+    min-height: 100vh;
+}
+.sidebar-filter .accordion-box{
+    width: 100%;
+    transition: none;
+    margin-top: 10px;
+}
+.sidebar-filter .accordion-box .accordion-title{
+    width: 100%;
+    background-color: #021965;
+    /*background-color: #10c92f !important;*/
+    padding: 10px;
+    cursor: pointer;
+    transition: none;
+}
+.sidebar-filter .accordion-box .accordion-title .circle{
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+    border: 3px dashed #ffffff;
+    margin-right: 10px;
+}
+.sidebar-filter .accordion-box .accordion-title .circle i{
+    padding-left: 3px;
+    color: white;
+}
+.sidebar-filter .accordion-box .accordion-title span{
+    padding-left: 3px;
+    font-family: var(--semi);
+    color: #ffffff;
+}
+.sidebar-filter .accordion-box .accordion-body{
+    transition: none;
+
+}
+.sidebar-filter .accordion-box .accordion-body .brands{
+    max-height: 300px;
+    overflow-y: auto;
+
+}
+.sidebar-filter .accordion-box .accordion-body .brands .brand{
+    align-items: center;
+}
+.sidebar-filter .accordion-box .accordion-body .brands .brand img{
+    width: 60px;
+    height: 30px;
+
+}
+.range-slider {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	height: 6em;
+}
+
+.range-slider svg,
+.range-slider input[type=range] {
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+.range-slider span div{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.range-slider span input[type=number] {
+    border: 1px solid #ddd;
+	text-align: center;
+	font-size: 1.0em;
+	-moz-appearance: textfield;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.range-slider input[type=number]::-webkit-outer-spin-button,
+.range-slider input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+.range-slider input[type=number]:invalid,
+.range-slider input[type=number]:out-of-range {
+	border: 2px solid #ff6347;
+}
+
+.range-slider input[type=range] {
+	-webkit-appearance: none;
+	width: 100%;
+}
+
+.range-slider input[type=range]:focus {
+	outline: none;
+}
+
+.range-slider input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #2497e3;
+}
+
+.range-slider input[type=range]:focus::-ms-fill-lower {
+	background: #2497e3;
+}
+
+.range-slider input[type=range]:focus::-ms-fill-upper {
+	background: #2497e3;
+}
+
+.range-slider input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+.range-slider input[type=range]::-webkit-slider-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}
+
+.range-slider input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+.range-slider input[type=range]::-moz-range-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+}
+
+.range-slider input[type=range]::-ms-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+.range-slider input[type=range]::-ms-fill-lower,
+.range-slider input[type=range]::-ms-fill-upper {
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+.range-slider input[type=range]::-ms-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+}
+
+.product-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 0;
+}
+.product-box > div{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.product-box .product-item{
+    /*margin: 0 !important;*/
+}
